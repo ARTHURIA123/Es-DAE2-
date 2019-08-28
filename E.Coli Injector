@@ -1,0 +1,115 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{ICTS175: Assignment I Answer Sheet}
+\author{By Cherdrush Apiratiwut }
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+\section{}
+\begin{equation}
+    \lim_{x\to0}\frac{{\sqrt{x^2+100}-10}}{x^2}
+    \end{equation}
+
+\MakeUppercase{Solution}
+\begin{equation}
+     \lim_{x\to0}\frac{{\sqrt{x^2+100}-10}}{x^2}=\lim_{x\to0}\frac{{\sqrt{x^2+100}-10}}{x^2}.\frac{{\sqrt{x^2+100}+10}}{{\sqrt{x^2+100}+10}}
+\end{equation}
+\begin{equation}
+    = \lim_{x\to0}\frac{{x^2}}{x^2(\sqrt{x^2+100}-10)}
+\end{equation}
+\begin{equation}
+    = \lim_{x\to0}\frac{{1}}{(\sqrt{x^2+100}+10)}
+\end{equation}
+\begin{equation}
+    = \frac{{1}}{(\sqrt{0+100}+10)}
+\end{equation}
+\begin{equation}
+    = \frac{{1}}{20}
+\end{equation}
+
+\maketitle
+\section{}
+\begin{equation}
+    \lim_{x\to9}\frac{{\sqrt{x}-3}}{x-9}
+\end{equation}
+\MakeUppercase{Solution}
+\begin{equation}
+\lim_{x\to9}\frac{{\sqrt{x}-3}}{x-9}=\lim_{x\to9}\frac{{x-9}}{x-9{(\sqrt{x}3})}
+\end{equation}
+\begin{equation}
+=\lim_{x\to9}\frac{1}{{(\sqrt{x}+3})}
+\end{equation}
+\begin{equation}
+=\frac{1}{6}
+\end{equation}
+
+
+
+\newpage
+\maketitle
+\section{}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1]{assignpic}
+\label{fig:assignpic}
+\end{figure}
+\MakeUppercase{Solution}
+\begin{equation}
+    (a)\lim_{t\to-2} f(t)= 0
+\end{equation}
+\begin{equation}
+    (b)\lim_{t\to-1} f(t)= -1
+\end{equation}
+\begin{equation}
+    (c)\lim_{t\to-0} f(t)= undefined
+\end{equation}
+\begin{equation}
+    (d)\lim_{t\to-0.5} f(t)= -1
+\end{equation}
+
+\maketitle
+\section{}
+\begin{equation}
+    f(s)= \frac{s^3-1}{s^2-1}
+\end{equation}
+\MakeUppercase{Solution}
+\begin{equation}
+    = \frac{{(s-1)}(s^2+s+1)}{(s-1)(s+1)}
+\end{equation}
+\begin{equation}
+    = \frac{(s^2+s+1)}{(s+1)}
+\end{equation}
+\begin{equation}
+    = \frac{(1+1+1)}{(1+1)}
+\end{equation}
+\begin{equation}
+    = \frac{3}{2}
+\end{equation}
+
+
+\newpage
+\maketitle
+\section{}
+\begin{equation}
+    \lim_{x\to\infty} \frac{3x^7+5x^2-1}{6x^3-7x+3}
+\end{equation}
+\MakeUppercase{Solution}
+\begin{equation}
+    = \lim_{x\to\infty} \frac{\frac{3x^7+5x^2-1}{x^7}}{\frac{6x^3-7x+3}{x^7}}
+\end{equation}
+\begin{equation}
+    = \lim_{x\to\infty} \frac{3+\frac{5}{x^5}-\frac{1}{x^7}}{\frac{6}{x^4}+\frac{7}{x^6}-\frac{3}{x}}
+\end{equation}
+\begin{equation}
+    = \frac{3}{0}
+    \end{equation}
+    \begin{equation}
+    = undefined
+    \end{equation}
+\end{document}
+
